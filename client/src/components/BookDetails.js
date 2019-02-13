@@ -3,7 +3,9 @@ import { graphql } from 'react-apollo';
 import { getBookQuery } from '../queries/queries'
 
 class BookDetails extends Component {
-
+    constructor(props){
+        super(props)
+    }
     displayBookDetails(){
         const { book } = this.props.data;
         if(book){
@@ -32,7 +34,6 @@ class BookDetails extends Component {
     }
 
       render() {
-          console.log(this.props, 'props')
         return (
           <div id='book-details'>
             {
