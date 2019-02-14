@@ -1,1 +1,2 @@
 # LibraryApp-React-GraphQL
+I made this web application using React, GraphQL, and MongoDB. It is a library app, where users can add books dynamically to the database, and query information about certain authors and the books they wrote. The books and authors aren't real, this project is just to showcase knowledge of React, GraphQL and MongoDB. 
